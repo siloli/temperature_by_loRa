@@ -13,4 +13,5 @@ def add_cayenne_payload(channel=1):
     time.sleep(1)
     temperature = int(tempC * 10) # precision de 0.1 pour temp
     payload = (payload +bytes([channel]) +bytes([103]) +struct.pack('>l', temperature)[2:4])
+    print(payload)
     return(payload)

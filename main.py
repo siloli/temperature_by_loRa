@@ -41,6 +41,5 @@ while True:
     # (because if there's no data received it will block forever...)
     s.setblocking(False)
     # get any data received (if any...)
-    time.sleep(60)
     data = s.recv(64)
     print(data)

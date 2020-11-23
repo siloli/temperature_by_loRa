@@ -10,7 +10,7 @@
 
 # See https://docs.pycom.io for more information regarding library specifics
 
-from pycoproc import Pycoproc
+from libraries.pycoproc import Pycoproc
 
 __version__ = '1.4.1'
 
