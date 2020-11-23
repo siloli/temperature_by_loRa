@@ -8,8 +8,8 @@ pycom.heartbeat(False)
 lora = LoRa(mode=LoRa.LORAWAN, region=LoRa.EU868)
 
 # create an OTAA authentication parameters, change them to the provided credentials
-app_eui = ubinascii.unhexlify('70B3D57ED00381E0')
-app_key = ubinascii.unhexlify('D7B6DCFF4ADC8729299BCAE1C78895D7')
+app_eui = ubinascii.unhexlify('XXXXXXXXXXXXX')
+app_key = ubinascii.unhexlify('XXXXXXXXXXXXXXXXXXXXXXXXXXXXX')
 #uncomment to use LoRaWAN application provided dev_eui
 #dev_eui = ubinascii.unhexlify('70B3D549938EA1EE')
 
